@@ -15,8 +15,8 @@ console.log(flg);
 //課題２
 
 let numbers = [1, 4, 7, 9];
-let members = ['太郎', '花子'];
+let members = ['太郎', '二郎', '花子'];
 
 numbers.push(20);
 console.log(numbers.length);
-console.log(members[1]);
+console.log(members[2]);
