@@ -37,6 +37,7 @@ let obj = {
 obj.setName('花子');
 console.log(obj.showName());
 
+/*
 //課題４
 let num1 = 100;
 let num2 = 50;
@@ -45,3 +46,15 @@ console.log(num1 - num2);
 console.log(num1 * num2);
 console.log(num1 / num2);
 console.log(num1 % num2);
+*/
+
+//課題５
+let num1 = 5;
+let num2 = 5;
+let num3 = 3.89;
+console.log(num1 === num2);
+console.log(num1 !== num2);
+console.log(num1 < num3);
+console.log(num1 <= num2);
+console.log(num3 > num1);
+console.log(num2 >= num3);
