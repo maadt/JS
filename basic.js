@@ -68,3 +68,8 @@ if (num === 100) {
 } else {
     console.log('値は100未満です');
 }
+
+//課題７
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
