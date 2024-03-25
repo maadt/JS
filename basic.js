@@ -99,3 +99,20 @@ function coupon(price) {
 }
 let resultPrice = coupon(price);
 console.log(resultPrice + ' 円です。');
+
+//課題１２
+let count = 5;
+let word1 = 'abc';
+let word2 = 'DEF';
+function createWord(count, word1, word2) {
+    let resultWord = "";
+    for (let i = 0; i < count; i++) {
+        if (i % 2 === 1) {
+            resultWord += word1;
+        } else {
+            resultWord += word2;
+        }
+    }
+    return resultWord;
+}
+console.log(createWord(count, word1, word2));
