@@ -1,3 +1,4 @@
+/*
 //課題１
 
 let str1 = 'abc';
@@ -11,6 +12,7 @@ console.log(str2);
 console.log(num1);
 console.log(num2);
 console.log(flg);
+*/
 
 //課題２
 
@@ -34,3 +36,12 @@ let obj = {
 }
 obj.setName('花子');
 console.log(obj.showName());
+
+//課題４
+let num1 = 100;
+let num2 = 50;
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+console.log(num1 % num2);
