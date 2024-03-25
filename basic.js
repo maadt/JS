@@ -73,3 +73,9 @@ if (num === 100) {
 for (let i = 0; i < 10; i++) {
     console.log(i);
 }
+
+//課題８
+let obj = { a: 100, b: 200, c: 300 };
+for (let key in obj) {
+    console.log(key + ": " + obj[key]);
+}
