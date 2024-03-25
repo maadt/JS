@@ -91,3 +91,11 @@ function helloWorld() {
     console.log("Hello World!! ");
 }
 helloWorld();
+
+//課題１１
+let price = 140;
+function coupon(price) {
+    return price * 0.9;
+}
+let resultPrice = coupon(price);
+console.log(resultPrice + ' 円です。');
