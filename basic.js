@@ -20,3 +20,17 @@ let members = ['太郎', '二郎', '花子'];
 numbers.push(20);
 console.log(numbers.length);
 console.log(members[2]);
+
+//課題３
+
+let obj = {
+    name: null,
+    setName: function (name) {
+        this.name = name;
+    }
+    showName: function () {
+        return this.name;
+    }
+}
+obj.setName('花子');
+console.log(obj.showName());
