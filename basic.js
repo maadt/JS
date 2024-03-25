@@ -24,7 +24,7 @@ console.log(numbers.length);
 console.log(members[2]);
 
 //課題３
-
+/*
 let obj = {
     name: null,
     setName: function (name) {
@@ -36,6 +36,7 @@ let obj = {
 }
 obj.setName('花子');
 console.log(obj.showName());
+*/
 
 /*
 //課題４
