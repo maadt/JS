@@ -79,3 +79,9 @@ let obj = { a: 100, b: 200, c: 300 };
 for (let key in obj) {
     console.log(key + ": " + obj[key]);
 }
+
+//課題９
+let arr = [10, 20, 30];
+arr.forEach(function (num) {
+    console.log(num);
+});
