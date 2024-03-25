@@ -85,3 +85,9 @@ let arr = [10, 20, 30];
 arr.forEach(function (num) {
     console.log(num);
 });
+
+//課題１０
+function helloWorld() {
+    console.log("Hello World!! ");
+}
+helloWorld();
