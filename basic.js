@@ -17,9 +17,6 @@ console.log(flg);
 let numbers = [1, 4, 7, 9];
 let members = ['太郎', '花子'];
 
-for (let i = 0; i < numbers.length;) {
-    console.log(numbers[i]);
-}
-for (let i = 0; i < members.length;) {
-    console.log(members[i]);
-}
+numbers.push(20);
+console.log(numbers.length);
+console.log(members[1]);
