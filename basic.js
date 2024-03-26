@@ -27,14 +27,12 @@ console.log(members[2]);
 /*
 let obj = {
     name: null,
-    setName: function (name) {
-        this.name = name;
-    },
+
     showName: function () {
         return this.name;
     }
 }
-obj.setName('花子');
+obj.name('花子');
 console.log(obj.showName());
 */
 
