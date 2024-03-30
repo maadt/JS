@@ -1,3 +1,6 @@
+let header = document.querySelector("h1");
+console.log("テスト");
+
 /*
 document.addEventListener("DOMContentLoaded", function () {
     let header = document.querySelector("h1");
@@ -11,6 +14,8 @@ let header = document.querySelector("h1");
 header.textContent = "Hello world!";
 //textContent：指定したテキスト内容を変更。この場合はheaderに格納されたh1タグ。
 */
+
+/*
 function keisan(num) {
     // 引数 * 3をculcに代入する
     let culc = num * 3;
@@ -25,3 +30,4 @@ let num = 2;
 for (let i = 0; i < 10; i++) {
     num = keisan(num);
 }
+*/
